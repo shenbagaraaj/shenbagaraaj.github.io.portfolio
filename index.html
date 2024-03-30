@@ -14,19 +14,19 @@
             }
             .flex-container{
                 display: flex;
+                margin-top:40px;
                 flex-direction: row;
                 justify-content: flex-end;
                 gap:20px;
             }
             .name{
-                width:80%;
+                width:100%;
             }
             .avatar-pic{
                 float:inline-end;
             }
             .container{
                 display:flex;
-                flex-direction:column;
                 justify-content: space-around;
                 margin-bottom: 30px;
             }
@@ -59,11 +59,15 @@
                 list-style: none;
             }
             p{
-                font-size: 3rem;
+                font-size:1rem;
+            }
+            .profession{
+                font-size: 3.5rem;
             }
             .footer{
                 margin-bottom: 1em;
             }
+            
             
             
             @media screen and (max-width:2400px){
@@ -79,14 +83,15 @@
                 }
                 .container{
                     display:flex;
+                    flex-direction:column;
                     flex-direction: space-around;
                     margin-bottom:30px;
                 }
                 h1{
                     font-size:4rem;
                 }
-                p{
-                    font-size:1.5rem;
+                .profession{
+                    font-size:2.5rem;
                 }
                 
                 
@@ -105,7 +110,7 @@
                 <h1>
                     <span style="color:black">Hey Dude!,</span> I'm Shenbagaraj
                 </h1>
-                <p style="color:black;">Tech Enthusiast | Web Developer</p>
+                <p class="profession" style="color:black;">Tech Enthusiast | Web Developer</p>
             </div>
         </div>
 
