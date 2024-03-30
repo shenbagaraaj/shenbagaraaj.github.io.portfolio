@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" width="device-width, initial-scale=1.0">
+        <title>Shenbagaraj S</title>
+        <style>
+            body{
+                background-color: burlywood;
+            }
+            h1{
+                color:white;
+                font-size: 5rem;
+            }
+            .flex-container{
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                gap:20px;
+            }
+            .name{
+                width:80%;
+            }
+            .avatar-pic{
+                float:inline-end;
+            }
+            .container{
+                display:flex;
+                justify-content: space-around;
+                margin-bottom: 30px;;
+            }
+            .anchor-tags{
+                color:white;
+                text-decoration: none;
+            }
+            .menus{
+                display: inline-block;
+                list-style: none;
+                margin:10px 20px;
+                background-color: teal;
+                padding:10px;
+                border-radius: 10px;
+
+            }
+            .button{
+                display:inline-flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                list-style: none;
+                margin:10px 20px;
+                background-color:teal;
+                padding:10px;
+                border-radius: 10px;
+                color:white
+            }
+            li{
+                list-style: none;
+            }
+            p{
+                font-size: 3rem;
+            }
+            .footer{
+                margin-bottom: 1em;
+            }
+            
+            
+            @media(max-width:600px){
+                .flex-container{
+                    flex-direction: column;
+                }
+                h1{
+                    font-size: 3rem;
+                }
+                p{
+                    font-size: 1.5rem;
+                }
+                
+            }
+        
+        </style>
+    </head>
+    <body>
+        <div class="flex-container">
+            <li class="menus"><a class="anchor-tags" href="./certificates.html">Certifications</a></li>
+            <li class="menus"><a class="anchor-tags" href="./projects.html">Projects</a></li>
+        </div>
+        <div class="container">
+            <img class="avatar-pic" src="./assets/images/avatar pic .jpg.png">
+            <div class="name">
+                <h1>
+                    <span style="color:black">Hey Dude!,</span> I'm Shenbagaraj
+                </h1>
+                <p style="color:black;">Tech Enthusiast | Web Developer</p>
+            </div>
+        </div>
+
+
+        <div class="contacts">
+            <ul>
+                <li><a class="button" style="text-decoration: none;" href="https://www.linkedin.com/in/shenbagaraj-s-b030381b2/">LinkedIn</a></li>
+                <li><a class="button" style="text-decoration:none;" href="https://drive.google.com/file/d/1g-r-fkUn1qbls4mdTGeXslPtj3UDoH49/view?usp=drive_link">Resume</a></li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <hr>
+        <footer>
+            Mail: sshenbaagaraj@gmail.com &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mob: 7904600490
+        </footer>
+
+
+        
+        
+        
+    </body>
+</html>
