@@ -7,8 +7,11 @@
         <style>
             
             body{
-                background-color: burlywood;
-                color:black
+                background-color:lightcyan;
+                color:black;
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
             }
             img{
                 height:200px;
@@ -21,14 +24,37 @@
             .github{
                 margin-left: 30px;
                 margin-top: 60px;
+                margin-right: 60px;
             }
+            .lib_pic{
+                height:200px;
+                width:200px;
+            }
+            .projects{
+                margin-left: 30px;
+                margin-top: 60px;
+            }
+            .partition{
+                display:flex;
+                flex-direction: row;
+                height:100vh;
+                justify-content: center;
+            }
+
         </style>
     </head>
     <body>
         <h1>Projects</h1>
+        <div class="partition">
         <div class="github">
-            <h2>Github</h2>
-            <a href="https://github.com/shenbagaraaj/Projects"><img src="./assets/images/github-6980894_1280.webp"></a>
+            <h2> &ensp; &ensp;&ensp;&ensp;&ensp;Github</h2>
+            <a href="https://github.com/shenbagaraaj/Projects"><img src="./assets/images/github-6980894_1280.webp" alt="github"></a>
         </div>
+        <div class="projects">
+            <h2>Library Management System </h2> 
+            <a href="https://github.com/shenbagaraaj/Projects/tree/main/Library%20Management%20System"><img class="lib_pic" src="./assets/images/library-management-system.png" alt="library"></a>
+        </div>
+        </div>
+
     </body>
 </html>
