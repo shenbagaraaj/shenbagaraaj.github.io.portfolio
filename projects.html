@@ -12,49 +12,74 @@
                 font-family: Arial, sans-serif;
                 margin: 0;
                 padding: 0;
+                height:100vh;
             }
-            img{
-                height:200px;
-                width:200px;
-            }
+            
             h1{
                 text-align: center;
                 font-size: 3rem;
             }
-            .github{
-                margin-left: 30px;
-                margin-top: 60px;
-                margin-right: 60px;
+            .container{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr ;
+                margin-left: 60px;
+                padding:10px;
+                gap:20px;
             }
-            .lib_pic{
-                height:200px;
-                width:200px;
+            .block{
+                width: 60%;
+                height: 380px;
+                font-size: large;
+                border:3px solid black;
+                padding:10px;
             }
-            .projects{
-                margin-left: 30px;
-                margin-top: 60px;
+            p{
+                text-align: justify;
             }
-            .partition{
-                display:flex;
-                flex-direction: row;
-                height:100vh;
-                justify-content: center;
+            a{
+                text-decoration: none;
+                color:black;
             }
-
+            
         </style>
     </head>
     <body>
         <h1>Projects</h1>
-        <div class="partition">
-        <div class="github">
-            <h2> &ensp; &ensp;&ensp;&ensp;&ensp;Github</h2>
-            <a href="https://github.com/shenbagaraaj/Projects"><img src="./assets/images/github-6980894_1280.webp" alt="github"></a>
-        </div>
-        <div class="projects">
-            <h2>Library Management System </h2> 
-            <a href="https://github.com/shenbagaraaj/Projects/tree/main/Library%20Management%20System"><img class="lib_pic" src="./assets/images/library-management-system.png" alt="library"></a>
-        </div>
-        </div>
+        <div class="container">
+            <a href="https://github.com/shenbagaraaj/Projects/tree/main/Library%20Management%20System"><div class="A block">
+                <h2>Library Management System</h2>
+                <p>
+                    This project is essentially software designed to streamline some of the operations in a library. It helps to ditch the manual processes and keep 
+                    track of everything digitally, from the vast collection of books and resources to the members borrowing them.
 
+                    Here's a breakdown of what LMS typically offers:
+                    <ul>
+                        <li>
+                            Cataloging and record keeping
+                        </li>
+                        <li>
+                            Member Management
+                        </li>
+                        <li>
+                            Inventory Control
+                        </li>
+                    </ul>
+                </p>
+            </div></a>
+            <a href="https://shenbagaraaj.github.io/Drum-kit/"><div class="B block">
+                <h2>Drum Kit</h2>
+                <p>
+                    Drum kit is your one-stop shop for all things drumming, online!. Whether you're a seasoned pro or just starting to explore the rhythmic world, we've got something for you.
+
+Play a virtual drum kit right on your web browser. Use your keyboard or mouse to pound out beats, experiment with different sounds, and find your groove.
+
+
+                </p>
+            </div></a>
+            <a href="https://shenbagaraaj.github.io/BMI-Calculator/"><div class="C block">
+                <h2>BMI Calculator</h2>
+                <p> This website is your one-stop shop for understanding Body Mass Index (BMI). We provide clear and concise information to help you</p>
+            </div></a>
+        </div>
     </body>
 </html>
